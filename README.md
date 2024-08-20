@@ -2,6 +2,10 @@
 
 This project aims to develop a cost-effective and efficient home delivery system using basic components, including the ESP32 microcontroller, ultrasonic sensor, and servo motor. The system integrates key technologies such as Blynk for mobile app interaction, real-time notifications, and GPS location tracking.
 
+## Documentation
+
+For a detailed overview of the project, please refer to the [Technical Report](Smart%20Home%20Delivery_Technical%20Report.pdf).
+
 ## Components
 
 - ESP32 module with camera
@@ -46,7 +50,6 @@ In the Blynk app, create a new project and configure the following virtual pins:
 
 ### Code Overview
 
-- **Technical Report**: Detailed documentation is available in `Smart Home Delivery_Technical Report.pdf`.
 - **HomeDelivery.ino**: Main code file. Configure your Blynk Template ID, Name, and default home GPS location (`latitude_home_default`, `longitude_home_default`).
 - **ElectronicComponents.h**: Manages electronic components. Configure ESP32 pins based on your hardware setup.
 - **Geofence.h**: Handles geofencing calculations. Modify the geofence radius (`geofence_radius_m`) as required.
