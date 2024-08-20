@@ -75,6 +75,12 @@ In the Blynk app, create a new project and configure the following virtual pins:
 7. **Locking the Delivery Box**: The box automatically locks 10 seconds after closing. The servo motor rotates back 180 degrees to re-engage the lock, securing the box.
 8. **System Continuation**: The system remains operational until the ESP32 is powered off.
 
+## Demonstration
+
+Watch a video demonstration of the Smart Home Delivery System in action:
+
+[![Smart Home Delivery System Demonstration](https://img.youtube.com/vi/gAq8RfzgZuQ/0.jpg)](https://youtu.be/gAq8RfzgZuQ)
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
